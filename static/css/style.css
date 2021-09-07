@@ -1,0 +1,92 @@
+:root {
+    --black: #000000;
+    --green: #00ff00;
+    --yellow: #ffff00;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    padding: 18px 80px;
+    background: var(--black);
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.l-img{ 
+    width: 78px;
+    height: 78px;
+}
+
+.l-name {
+    margin: 0 20px;
+    color: var(--white);
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+header hr {
+    height: 85px;
+    margin: 0 15px;
+    background: var(--white);
+    border: 1px solid var(--white);
+}
+
+.navbar{
+    margin: 10px;
+}
+
+.link {
+    padding: 0 9px;
+    color: var(--white);
+    font-size: 1.3em;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.link:hover {
+    color: var(--yellow);
+}
+
+.btn {
+    padding: 8px 15px;
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background: var(--green);
+    color: var(--black);
+}
+
+.nav-btn {
+    position: fixed;
+    display: none;
+    font-size: 1.9em;
+    color: var(--white);
+}

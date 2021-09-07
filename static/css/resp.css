@@ -1,0 +1,164 @@
+@media only screen and (max-width:1920px) {
+    header {
+        padding: 12px 68px;
+    }
+    .l-img {
+        width: 72px;
+        height: 72px;
+    }
+    .l-name {
+        margin: 0 12px;
+        font-size: 1.5em;
+    }
+    header hr {
+        margin: 0 6px;
+        height: 78px;
+    }
+    .link {
+        padding: 0 5px;
+        font-size: 1em;
+    }
+    .btn {
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    header {
+        padding: 12px 60px;
+    }
+    .l-img {
+        width: 65px;
+        height: 65px;
+    }
+    .l-name {
+        font-size: 1.2em;
+    }
+    header hr {
+        height: 65px;
+        margin: 0 3px;
+    }
+    .navbar {
+        margin: 0 5px;
+    }
+    .link {
+        padding: 0 4px;
+        font-size: .9em;
+    }
+    .btn {
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    header {
+        padding: 10px 52px;
+    }
+    .l-img {
+        width: 60px;
+        height: 60px;
+    }
+    .l-name {
+        margin: 0 9px;
+        font-size: 1.1em;
+    }
+    header hr {
+        height: 60px;
+    }
+    .link {
+        padding: 0 4px;
+        font-size: .85em;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header {
+        padding: 8px 44px;
+    }
+    .l-img {
+        width: 53px;
+        height: 53px;
+    }
+    .l-name {
+        font-size: 1em;
+    }
+    header hr {
+        height: 53px;
+        margin: 0 5px;
+    }
+    .navbar {
+        margin: 0 5px;
+    }
+    .link {
+        padding: 0 3px;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        padding: 14px 40px;
+    }
+    .l-img{
+        width: 60px;
+        height: 60px;
+    }
+    .l-name {
+        font-size: 1.2em;
+        margin: 0 13px;
+    }
+    header hr, .navbar, .btn {
+        display: none;
+    }
+    header hr {
+        width: 100%;
+        height: 0;
+        margin: 8px 0;
+    }
+    .navbar {
+        margin: 0;
+    }
+    .link {
+        padding: 4px 3px;
+        font-size: .95em;
+    }
+    .nav-down {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .btn {
+        width: auto;
+        margin: 4px 0;
+        padding: 3px 7px;
+    }
+    .nav-btn {
+        top: 22px;
+        right: 45px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    header {
+        padding: 14px 25px;
+    }
+    .nav-btn {
+        top: 27px;
+        right: 25px;
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    header {
+        padding: 14px 18px;
+    }
+    .link {
+        font-size: .85em;
+    }
+    .nav-btn {
+        right: 20px;
+    }
+}
