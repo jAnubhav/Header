@@ -87,7 +87,6 @@ header:hover .linkin {
 }
 
 .icon {
-    justify-content: center;
     height: 25px;
     width: 40px;
     padding: 18px;
@@ -116,17 +115,17 @@ header:hover .linkin {
 
 .main {
     position: relative;
-    top: 66px;
-    left: 56px;
-    width: calc(100vw - 56px);
+    top: 88px;
+    left: 72px;
+    width: calc(100vw - 72px);
     height: 100vh;
     background: red;
     transition: .5s;
 }
 
 header:hover~.main {
-    left: 125px;
-    width: calc(100vw - 125px);
+    left: 155px;
+    width: calc(100vw - 155px);
 }
 
 @media only screen and (max-width:1920px) {
@@ -149,6 +148,15 @@ header:hover~.main {
     }
     .linkin {
         padding: 8px 12px;
+    }
+    .main {
+        top: 76px;
+        left: 64px;
+        width: calc(100vw - 64px);
+    }
+    header:hover~.main {
+        left: 140px;
+        width: calc(100vw - 140px);
     }
 }
 
@@ -175,6 +183,15 @@ header:hover~.main {
     .linkin {
         padding: 5px 10px;
     }
+    .main {
+        top: 64px;
+        left: 54px;
+        width: calc(100vw - 54px);
+    }
+    header:hover~.main {
+        left: 125px;
+        width: calc(100vw - 125px);
+    }
 }
 
 @media only screen and (max-width:1024px) {
@@ -193,6 +210,15 @@ header:hover~.main {
     }
     .linkin {
         padding: 3px 6px;
+    }
+    .main {
+        top: 50px;
+        left: 46px;
+        width: calc(100vw - 46px);
+    }
+    header:hover~.main {
+        left: 110px;
+        width: calc(100vw - 110px);
     }
 }
 
@@ -261,5 +287,14 @@ header:hover~.main {
     }
     .opaque {
         opacity: 1;
+    }
+    .main {
+        top: 64px;
+        left: 0;
+        width: 100vw;
+    }
+    header:hover~.main {
+        left: 0;
+        width: 100vw;
     }
 }
