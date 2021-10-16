@@ -35,7 +35,7 @@ header {
 
 header:hover {
     width: 155px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .d-flex {
@@ -63,7 +63,7 @@ header:hover {
 }
 
 header:hover .logo {
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 
 .link {
